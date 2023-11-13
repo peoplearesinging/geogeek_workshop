@@ -5,5 +5,3 @@ total = 0
 for line in lines:
     name, population = line.split(",")
 
-print(f"Total population: {total:,}")
-print(f"Average population: {total / len(lines):,}")
